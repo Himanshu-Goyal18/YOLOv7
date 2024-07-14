@@ -1,28 +1,27 @@
 # YOLOv7 - Real-Time Object Detection
-## 1.Overview
+## 1. Overview
 YOLOv7 (You Only Look Once, version 7) is the latest iteration in the YOLO family of object detection models, designed for high performance and real-time object detection. It offers state-of-the-art accuracy and speed, making it suitable for various applications like autonomous driving, surveillance, and more.
 
-### Project Objective
+### 1.1 Project Objective
 The primary objective of this project is to leverage YOLOv7's advanced capabilities for real-time object detection. By implementing and fine-tuning this model, we aim to achieve robust and efficient detection of multiple objects in dynamic environments.
 
-### Motivation
+### 1.2 Motivation
 The motivation behind this project is to harness the power of YOLOv7 to push the boundaries of object detection technology. YOLOv7’s blend of speed and accuracy presents a significant advancement in the field, enabling practical applications where real-time processing is crucial.
 
-### Key Features
+### 1.3 Key Features
 - High Performance: Achieves state-of-the-art accuracy while maintaining real-time processing speeds.
 - Versatile Applications: Suitable for a wide range of use cases, including autonomous vehicles, security systems, and more.
 - Robust Detection: Capable of detecting multiple objects in diverse and complex environments.
   
-Technologies Used
+### 1.4 Technologies Used
 - YOLOv7 Model: Latest version of the YOLO object detection architecture.
 - PyTorch: Deep learning framework used for training and inference.
 
 - Python: Primary programming language for implementation.
   
-Setup Instructions
-Please refer to the inference section for detailed setup instructions to get started with YOLOv7.
 
-Utility
+
+### 1.5 Utility
 YOLOv7 serves as an essential tool for developers and researchers focused on real-time object detection. Its application can extend to:
 
 - Enhancing safety and efficiency in autonomous systems.
@@ -30,7 +29,7 @@ YOLOv7 serves as an essential tool for developers and researchers focused on rea
 - Enabling innovative AI-driven applications in various industries.
 
 
-## Inference
+## 2. Inference
 
 
 
