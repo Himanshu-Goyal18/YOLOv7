@@ -35,14 +35,14 @@ YOLOv7 serves as an essential tool for developers and researchers focused on rea
 
 
 
-## **1. Setting up Dependencies**
-### 1.1 Mounting Google Drive
+### **2.1. Setting up Dependencies**
+#### 2.1.1 Mounting Google Drive
 ```python
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
 
-### 1.2 Cloning the repo and setting up dependencies
+#### 2.1.2 Cloning the repo and setting up dependencies
 ```python
 %%bash
 cd /content/gdrive/MyDrive
@@ -59,7 +59,7 @@ cd /content/gdrive/MyDrive/yolov7
 if not os.path.isdir("/content/gdrive/MyDrive/yolov7/weights"):
   os.makedirs("/content/gdrive/MyDrive/yolov7/weights")
 ```
-### 1.3Getting YOLOv7 Models
+#### 2.1.3 Getting YOLOv7 Models
 ```python
 %%bash
 wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
@@ -73,7 +73,7 @@ wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yol
 
 
 
-### 1.4 Helper code for inference.
+#### 2.1.4 Helper code for inference.
 ```python
 import argparse
 import time
@@ -125,7 +125,7 @@ def letterbox(img, new_shape=(640, 640), color=(114, 114, 114), auto=True, scale
     return img, ratio, (dw, dh)
 ```
 
-### **1.5 Configuration Parameters**
+#### **2.1.5 Configuration Parameters**
 ```python
 classes_to_filter = ['train'] #You can give list of classes to filter by name, Be happy you don't have to put class number. ['train','person' ]
 
@@ -142,7 +142,7 @@ opt  = {
 
 }
 ```
-## **2. Inference on single image**
+### **2.2. Inference on single image**
 ```python
 # Give path of source image
 source_image_path = '/content/gdrive/MyDrive/yolov7/inference/images/horses.jpg'
@@ -215,7 +215,7 @@ with torch.no_grad():
 from google.colab.patches import cv2_imshow
 cv2_imshow(img0)
 ```
-![Alt text](Evaluation.png)
+![Alt text](bounding_box.png)
 
 
 ## Citations
