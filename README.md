@@ -1,4 +1,41 @@
-# YOLOv7
+# YOLOv7 - Real-Time Object Detection
+## 1.Overview
+YOLOv7 (You Only Look Once, version 7) is the latest iteration in the YOLO family of object detection models, designed for high performance and real-time object detection. It offers state-of-the-art accuracy and speed, making it suitable for various applications like autonomous driving, surveillance, and more.
+
+### Project Objective
+The primary objective of this project is to leverage YOLOv7's advanced capabilities for real-time object detection. By implementing and fine-tuning this model, we aim to achieve robust and efficient detection of multiple objects in dynamic environments.
+
+### Motivation
+The motivation behind this project is to harness the power of YOLOv7 to push the boundaries of object detection technology. YOLOv7’s blend of speed and accuracy presents a significant advancement in the field, enabling practical applications where real-time processing is crucial.
+
+### Key Features
+- High Performance: Achieves state-of-the-art accuracy while maintaining real-time processing speeds.
+- Versatile Applications: Suitable for a wide range of use cases, including autonomous vehicles, security systems, and more.
+- Robust Detection: Capable of detecting multiple objects in diverse and complex environments.
+  
+Technologies Used
+- YOLOv7 Model: Latest version of the YOLO object detection architecture.
+- PyTorch: Deep learning framework used for training and inference.
+
+- Python: Primary programming language for implementation.
+  
+Setup Instructions
+Please refer to the inference section for detailed setup instructions to get started with YOLOv7.
+
+Utility
+YOLOv7 serves as an essential tool for developers and researchers focused on real-time object detection. Its application can extend to:
+
+- Enhancing safety and efficiency in autonomous systems.
+- Providing robust security and surveillance solutions.
+- Enabling innovative AI-driven applications in various industries.
+
+
+## Inference
+
+
+
+
+
 ## **1. Setting up Dependencies**
 ### 1.1 Mounting Google Drive
 ```python
@@ -180,4 +217,14 @@ from google.colab.patches import cv2_imshow
 cv2_imshow(img0)
 ```
 ![Alt text](Evaluation.png)
+
+
+## Citations
+
+This project leverages the groundbreaking advancements in the YOLOv7 model. Special thanks to the researchers behind YOLOv7 and to Augmented Startups for their comprehensive tutorials and resources.
+
+- **YOLOv7 Research Paper**: Wang, Chien-Yao, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors." arXiv preprint arXiv:2207.02696 (2022). [YOLOv7 Paper](https://arxiv.org/abs/2207.02696)
+  
+- **Augmented Startups**: For their detailed guides and tutorials on implementing YOLOv7. [Augmented Startups YOLOv7 Guide](https://augmentedstartups.info/YOLOv7GetStarted)
+
 
